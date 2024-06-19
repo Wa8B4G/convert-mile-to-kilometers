@@ -7,10 +7,16 @@
     height: 100vh;
    
 }
+#kilo{
+    border: solid 1px blue ;
+}
+#border{
+    box-shadow: 0px 2px 6px 4px #333;
+}
 
 #result{
     border-radius: 5px;
-    background-color: lightblue ;
+    
     padding: 5px;
     font-weight: 800;
     text-align: center;
@@ -23,7 +29,7 @@ body{
 .img{
     text-align: center;
     border-radius: 30%;
-    border: solid 4px black;
+    border: solid 4px #eee;
     display: flex;
     justify-content: center;
     align-items: center;

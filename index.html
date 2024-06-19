@@ -14,56 +14,66 @@
     <!-- this is the main part -->
 
 
-    <section id="main">
+    <section class="container-lg" id="main">
         <!-- this is main form -->
-        <div class="border p-2 border-danger rounded">
-            <h3 class="text-center">Young Prof. </h3>
-<img src="/img/clever.jpg" width="100px"  height="100px" alt=" my profile" class="img img-fluid text-center">
+
+        <div class="border p-2 border-secondary rounded" id="border">
+
+            <h3 class="text-center text-primary">Young Prof. </h3>
+            <img src="/img/clever.jpg" width="100px" height="100px" alt=" my profile" class="img img-fluid text-center">
+
             <div class="text-center">
-                <h2 class="text-warning">Convert mile to kilometers</h2>
+                <h2 class="text-secondary">Convert mile to kilometers</h2>
                 <hr>
-                <p class="">this is use  to convert mile to kilometers 1 mile = 1.60934 KM</p>
-                <small class="my-4 text-info">please fill in the bellow information</small>
+                <p class="">this is use to convert mile to kilometers 1 mile = 1.60934 KM</p>
+                <p class="">please fill in the bellow information</p>
 
             </div>
-            <form action="" method="post" id="distance" class="mt-4">
+
+            <form action="" method="post" id="distance" class="">
                 <!-- this is my input infor  -->
 
                 <div>
-                    <small class="  alert alert-danger " id="alert">please fill out this form </small>
+                    <small class="  alert alert-danger p-1 text-center " id="alert">please fill out this form </small>
 
                     </small>
-                    <input type="text" name="kilo" id="kilo" autocomplete="off" class=" form-control border-danger">
+                    <input type="text" name="kilo" id="kilo" autocomplete="off" class=" form-control ">
                 </div>
                 <div class=" my-2">
                     <input type="submit" id="submit" value="Convert to Kilometer"
-                        class="btn btn-outline-warning form-control">
+                        class="btn btn-primary form-control">
 
                 </div>
                 <div>
-                    <small class="alert alert-success form-control " id="result">we are here to give you best result! </small>
+                    <small class="alert alert-success form-control " id="result">we are here to give you best result!
+                    </small>
 
                 </div>
             </form>
         </div>
 
         <!-- this is my footer i love this footer very well -->
-        <footer class=" mt-4 pt-4">
-         <div class="">
+       
+
+    </section>
+
+    <!-- this is the footer of the page -->
+<section class="container-lg">
+    <footer class=" mt-4 pt-4">
+        <div class="">
             <a href="https://web.facebook.com/61558795884263/" target="_blank">
                 <img src="/img/facebook.png" class="img-fluid mx-4" width="20px" height="20px" alt="facebook">
             </a>
             <a href="https://wa.link/9slzdj" target="_blank">
                 <img src="/img/wha.jfif" class="img-fluid" width="20px" height="20px" alt="facebook">
             </a>
-         </div>
-            <p>YOUNGPROF. &copy; 2024</p>
-            <!-- <a href="https://web.facebook.com/share/3qRbPPZE62u8Jaue/" target="_blank">
-                <img src="/img/facebook.png" alt="facebook">
-            </a> -->
-        </footer>
-      
-    </section>
+        </div>
+        <p>YOUNGPROF. &copy; 2024</p>
+        <!-- <a href="https://web.facebook.com/share/3qRbPPZE62u8Jaue/" target="_blank">
+            <img src="/img/facebook.png" alt="facebook">
+        </a> -->
+    </footer>
+</section>
     <hr>
 </body>
 <script src="/main.js"></script>
