@@ -1,0 +1,40 @@
+#main{
+    margin: auto ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+#result{
+    border-radius: 5px;
+    background-color: lightblue ;
+    padding: 5px;
+    font-weight: 800;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    flex-direction: row-reverse;
+    border-bottom: solid 1px #333;
+    width: 50%;
+    
+}
+
+#alert{
+    display: none;
+    
+    
+}
